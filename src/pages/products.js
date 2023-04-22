@@ -1,7 +1,5 @@
 import React from "react";
 import AboutProductStyle from "../styles/AboutProduct.module.css";
-import Image from "next/image";
-
 import List, { ListItem } from "../components/list";
 import { products } from "../data/productsData.js";
 
