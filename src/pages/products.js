@@ -2,7 +2,7 @@ import React from "react";
 import AboutProductStyle from "../styles/AboutProduct.module.css";
 
 import List, { ListItem } from "../components/list";
-import { products } from "./products/_productsData.js";
+import { products } from "../data/productsData.js";
 
 export default function ProductsPage() {
   const soapList = products.map((product) => {
