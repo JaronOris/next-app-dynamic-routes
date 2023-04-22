@@ -1,6 +1,6 @@
 import React from "react";
 import ProductDetails from "../../styles/ProductDetails.module.css";
-import { products } from "../data/productsData";
+import { products } from "../../data/productsData";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
