@@ -1,0 +1,39 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal div {
+    width: 75%;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.closeButton {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-size: 16pt;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    font-family: RobotoBold;
+    cursor: pointer;
+}
+
+.clickable {
+    cursor: pointer;
+}

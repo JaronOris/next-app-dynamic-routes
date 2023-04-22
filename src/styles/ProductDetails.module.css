@@ -1,0 +1,35 @@
+.container {
+  width: 55vw;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.name {
+  font-size: 21pt;
+  font-family: RobotoBold;
+  color: #ef767a;
+}
+
+.descBox {
+  width: 400px;
+  height: 323px;
+  font-size: 22px;
+  font-family: LoraItalic;
+}
+
+.productImage {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}

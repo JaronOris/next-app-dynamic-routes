@@ -1,0 +1,46 @@
+.content {
+  width: 95%;
+  min-height: 1015px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentProducts {
+  width: 95%;
+  min-height: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ownerProduct {
+  margin: 0 auto;
+  display: flex;
+}
+
+.left img {
+  height: 244px;
+  width: 244px;
+  border-radius: 200px;
+  object-fit: cover;
+}
+
+.right {
+  width: 513px;
+  min-height: 203px;
+  padding-left: 75px;
+  padding-top: 125px;
+  font-family: LoraItalic;
+}
+
+.right h2 {
+  color: #ef767a;
+  font-family: RobotoBoldItalic;
+}
+
+.right a {
+  text-decoration: none;
+}
