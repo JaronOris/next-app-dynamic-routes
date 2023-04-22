@@ -1,6 +1,7 @@
 import React from "react";
 import AboutProductStyle from "../styles/AboutProduct.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 function List({ children }) {
   return (
