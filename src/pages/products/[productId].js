@@ -20,7 +20,7 @@ export default function ProductViewPage() {
   return (
     <>
       <div className={ProductDetails.container}>
-        <img
+        <Image
           className={ProductDetails.productImage}
           src={`/images/${currentProduct.image}`}
         />
