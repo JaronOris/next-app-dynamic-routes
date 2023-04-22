@@ -23,6 +23,7 @@ export default function ProductViewPage() {
         <Image
           className={ProductDetails.productImage}
           src={`/images/${currentProduct.image}`}
+          alt=""
         />
         <div className={ProductDetails.info}>
           <h1 className={ProductDetails.name}>{currentProduct.name}:</h1>

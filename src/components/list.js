@@ -17,7 +17,7 @@ export function ListItem({ image, header, text, href }) {
       <>
         <div className={AboutProductStyle.ownerProduct}>
           <Link href={href} className={AboutProductStyle.left}>
-            <Image src={image} />
+            <Image src={image} alt="" />
           </Link>
           <div className={AboutProductStyle.right}>
             <Link href={href}>
@@ -34,7 +34,7 @@ export function ListItem({ image, header, text, href }) {
     <>
       <div className={AboutProductStyle.ownerProduct}>
         <div className={AboutProductStyle.left}>
-          <Image src={image} />
+          <Image src={image} alt="" />
         </div>
         <div className={AboutProductStyle.right}>
           <h2>{header}:</h2>
